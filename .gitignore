@@ -34,20 +34,23 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data files (host on Zenodo)
+# Data files (large data on Zenodo)
 *.fits
 *.fits.gz
 *.npy
 *.npz
-*.csv
 *_results.json
 *.pkl
 *.pickle
 *.h5
 *.hdf5
-data/
 lightcurves/
 catalogs/
+
+# Keep TTV lookup table
+!data/
+!data/*.csv
+!data/*.md
 
 # Results (regenerate with scripts)
 results/
