@@ -1,0 +1,6 @@
+# TTV-BLS Requirements
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+batman-package>=2.4.0
+astropy>=5.0
